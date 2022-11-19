@@ -30,6 +30,6 @@ async function jawab(){
     balasan = jawaban;
     otomatis3();setTimeout(stakhir,1000);
   } else {
-    await swals.fire('Ups!', 'Jawaban tidak boleh kosong atau lebih dari 18 karakter, ya!',error');jawab();
+    await swals.fire('Ups!', 'Jawaban tidak boleh kosong atau lebih dari 18 karakter, ya!','error');jawab();
   }
 }
